@@ -1,9 +1,24 @@
 fileFormatVersion: 2
 guid: ec8b8e9c575a8bc41ab6f24d32c2c9ba
-timeCreated: 1445187840
+timeCreated: 1445204278
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: TilesForest_0
+    21300002: TilesForest_1
+    21300004: TilesForest_2
+    21300006: TilesForest_3
+    21300008: TilesForest_4
+    21300010: TilesForest_5
+    21300012: TilesForest_6
+    21300014: TilesForest_7
+    21300016: TilesForest_8
+    21300018: TilesForest_9
+    21300020: TilesForest_10
+    21300022: TilesForest_11
+    21300024: TilesForest_12
+    21300026: TilesForest_13
+    21300028: TilesForest_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +44,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +53,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +64,157 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: TilesForest_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 144
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 144
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 144
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 144
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 47
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 146
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 146
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_8
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 158
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 147
+        width: 118
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 127
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TilesForest_14
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
