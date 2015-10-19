@@ -48,18 +48,13 @@
      <Compile Include="Assets\Scripts\AnimationScripts\ConjurerAnimation.cs" />
      <Compile Include="Assets\Scripts\CameraLogic\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\ControllerScripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\JumpMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WalkMechanics.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

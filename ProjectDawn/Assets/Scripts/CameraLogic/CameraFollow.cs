@@ -3,9 +3,11 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
     public Transform target;
+    public Transform playerObject;
     public float movementSmoothing = 5f;
     public float offsetX = 0;
     public float offsetY = 0;
+    Vector3 velocity = Vector3.zero;
 
     float zDistance; //zoom distance
 
@@ -22,8 +24,9 @@ public class CameraFollow : MonoBehaviour {
 
     void updateCameraPosition()
     {
+
         Vector3 goalVec = new Vector3(target.position.x + offsetX, target.position.y + offsetY, zDistance);
-        transform.position = goalVec;
+        transform.position = Vector3.SmoothDamp(transform.position, goalVec, ref velocity, .15f);
 
     }
 
