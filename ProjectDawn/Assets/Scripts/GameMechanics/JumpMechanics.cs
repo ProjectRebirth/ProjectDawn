@@ -4,6 +4,7 @@ using System.Collections;
 public class JumpMechanics : MonoBehaviour {
     public int[] layerCheckInAir; //These are the layers that will be checked to see if the player is in air or not
     public float jumpForce = 5;
+    public float floatyForce;
     Rigidbody2D rigid;
     bool inAir;
     int layerMask;
@@ -20,6 +21,15 @@ public class JumpMechanics : MonoBehaviour {
     void Update()
     {
         inAir = checkInAir();
+        applyFloatyForce();
+    }
+
+    void applyFloatyForce()
+    {
+        if (rigid.velocity.y < -0.01f)
+        {
+            rigid.AddForce(Vector2.up * floatyForce * Time.deltaTime);
+        }
     }
 
     public void jump(bool jumpInput)
@@ -29,8 +39,7 @@ public class JumpMechanics : MonoBehaviour {
             
             if (inAir)
             {
-                print("What's up homie");
-                calculateJump();
+               calculateJump();
             }
         }
     }
