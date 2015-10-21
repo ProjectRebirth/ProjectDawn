@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6e2146c9c716c114aa2807facf4db56f
-timeCreated: 1445191322
+timeCreated: 1445462685
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,15 +20,15 @@ TextureImporter:
     21300026: Run_02
     21300028: Run_01
     21300030: Run_00
-    21300032: ConjurerSpriteSheet_16
-    21300034: ConjurerSpriteSheet_17
-    21300036: ConjurerSpriteSheet_18
-    21300038: ConjurerSpriteSheet_19
-    21300040: ConjurerSpriteSheet_20
-    21300042: ConjurerSpriteSheet_21
-    21300044: ConjurerSpriteSheet_22
-    21300046: ConjurerSpriteSheet_23
-    21300048: ConjurerSpriteSheet_24
+    21300032: Attack_301
+    21300034: Attack_300
+    21300036: Attack_204
+    21300038: Attack_203
+    21300040: Attack_202
+    21300042: Attack_201
+    21300044: Attack_200
+    21300046: Attack_101
+    21300048: Attack_100
     21300050: ConjurerSpriteSheet_25
   serializedVersion: 2
   mipmaps:
@@ -236,67 +236,67 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_16
+    - name: Attack_301
       rect:
         serializedVersion: 2
         x: 23
         y: 22
         width: 24
         height: 33
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .210131243, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_17
+    - name: Attack_300
       rect:
         serializedVersion: 2
         x: 59
         y: 20
         width: 28
         height: 40
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .710650027, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_18
+    - name: Attack_204
       rect:
         serializedVersion: 2
         x: 105
         y: 8
         width: 35
         height: 35
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .541049421, y: .222532734}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_19
+    - name: Attack_203
       rect:
         serializedVersion: 2
         x: 147
         y: 9
         width: 32
         height: 36
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .816649914, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_20
+    - name: Attack_202
       rect:
         serializedVersion: 2
         x: 194
         y: 23
         width: 35
         height: 28
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .541049659, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_21
+    - name: Attack_201
       rect:
         serializedVersion: 2
         x: 243
         y: 15
         width: 36
         height: 24
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .159634486, y: .0796714649}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_22
+    - name: Attack_200
       rect:
         serializedVersion: 2
         x: 285
@@ -306,7 +306,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_23
+    - name: Attack_101
       rect:
         serializedVersion: 2
         x: 313
@@ -316,15 +316,15 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ConjurerSpriteSheet_24
+    - name: Attack_100
       rect:
         serializedVersion: 2
         x: 341
         y: 18
         width: 31
         height: 29
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .162934333, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ConjurerSpriteSheet_25
       rect:

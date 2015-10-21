@@ -6,6 +6,7 @@ using System.Collections;
 public class WalkMechanics : MonoBehaviour {
     public float maxSpeed = 5;
     public float acceleration = 3;
+    public bool walkEnabled = true;
     float hInput;
     Rigidbody2D rigid;
 
@@ -17,8 +18,11 @@ public class WalkMechanics : MonoBehaviour {
 
     void Update()
     {
-        updateMovementSpeed();
-        updateDirection();
+        if (walkEnabled)
+        {
+            updateMovementSpeed();
+            updateDirection();
+        }
     }
 
     void updateDirection()

@@ -5,6 +5,7 @@ public class JumpMechanics : MonoBehaviour {
     public int[] layerCheckInAir; //These are the layers that will be checked to see if the player is in air or not
     public float jumpForce = 5;
     public float floatyForce;
+    public bool jumpEnabled = true;
     Rigidbody2D rigid;
     bool inAir;
     int layerMask;
@@ -34,10 +35,10 @@ public class JumpMechanics : MonoBehaviour {
 
     public void jump(bool jumpInput)
     {
-        if (jumpInput)
+        if (jumpInput && jumpEnabled)
         {
             
-            if (inAir)
+            if (!inAir)
             {
                calculateJump();
             }
@@ -54,10 +55,10 @@ public class JumpMechanics : MonoBehaviour {
         //RaycastHit2D hit;
         if (Physics2D.Raycast(transform.position, -transform.up, .1f, layerMask))
         {
-            return true;
+            return false;
 
         }
-        return false;
+        return true;
     }
 
     public bool getInAir()

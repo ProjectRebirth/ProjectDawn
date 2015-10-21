@@ -2,14 +2,10 @@
 using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
+    public float PATK;
+    public float PDEF;
+    public float MATK;
+    public float MDEF;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

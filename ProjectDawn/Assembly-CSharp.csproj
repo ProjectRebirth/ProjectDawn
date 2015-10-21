@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\AnimationScripts\ConjurerAnimation.cs" />
      <Compile Include="Assets\Scripts\CameraLogic\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\ControllerScripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\JumpMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WalkMechanics.cs" />
