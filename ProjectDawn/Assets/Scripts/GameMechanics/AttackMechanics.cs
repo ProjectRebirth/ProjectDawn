@@ -46,11 +46,11 @@ public class AttackMechanics : MonoBehaviour {
     {
         for (int i = 0; i < attackDelay.Length; i++)
         {
-            attackDelay[i] = Mathf.MoveTowards(attackDelay[i], 0, Time.deltaTime);
+            attackDelayTimer[i] = Mathf.MoveTowards(attackDelayTimer[i], 0, Time.deltaTime);
         }
         for (int i = 0; i < attackDuration.Length; i++)
         {
-            attackDuration[i] = Mathf.MoveTowards(attackDuration[i], 0, Time.deltaTime);
+            attackDurationTimer[i] = Mathf.MoveTowards(attackDurationTimer[i], 0, Time.deltaTime);
         }
     }
 
@@ -76,14 +76,16 @@ public class AttackMechanics : MonoBehaviour {
         {
          return false;
         }
-        print(attackDurationTimer[currentAttack % attackDuration.Length]);
+        //print(attackDuration[currentAttack]);
+        //print(attackDurationTimer[currentAttack % attackDuration.Length]);
 
         return attackDurationTimer[currentAttack % attackDuration.Length] > 0;
     }
 
     public float getAttackRatio() 
     {
-        return currentAttack;
+        print(currentAttack % attackDuration.Length);
+        return currentAttack % attackDuration.Length;
     }
 
     
