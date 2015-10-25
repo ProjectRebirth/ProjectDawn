@@ -1,9 +1,18 @@
 fileFormatVersion: 2
 guid: e4a7cfb7ee8ed284c88b83ed984cc7f8
-timeCreated: 1445187690
+timeCreated: 1445742238
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Idle_00
+    21300002: Idle_01
+    21300004: Walk_00
+    21300006: Walk_01
+    21300008: Walk_02
+    21300010: Dead_00
+    21300012: Dead_01
+    21300014: Dead_02
+    21300016: NotSure_00
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +38,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +47,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +58,97 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Idle_00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_01
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 143
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_01
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_02
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 53
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_01
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 53
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_02
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 53
+        width: 17
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NotSure_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

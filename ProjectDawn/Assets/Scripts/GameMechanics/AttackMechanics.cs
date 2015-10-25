@@ -84,7 +84,7 @@ public class AttackMechanics : MonoBehaviour {
 
     public float getAttackRatio() 
     {
-        print(currentAttack % attackDuration.Length);
+        //print(currentAttack % attackDuration.Length);
         return currentAttack % attackDuration.Length;
     }
 
